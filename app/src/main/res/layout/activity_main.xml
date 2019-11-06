@@ -4,7 +4,20 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context=".activity.MainActivity">
+    <EditText
+        android:id="@+id/main_edit_text_search"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_margin="16dp"
+        android:padding="8dp"
+        style="none"
+        android:maxLines="1"
+        android:background="@drawable/radius_8dp_line_1dp_color_light_blue"/>
 
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/main_recycler_view_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
 
 </LinearLayout>
