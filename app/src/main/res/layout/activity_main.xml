@@ -11,12 +11,13 @@
         android:layout_height="48dp"
         android:layout_margin="16dp"
         android:padding="8dp"
+        android:inputType="text"
         style="none"
         android:maxLines="1"
         android:background="@drawable/radius_8dp_line_1dp_color_light_blue"/>
 
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/main_recycler_view_image"
+        android:id="@+id/main_recycler_view_thumbnail"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 
